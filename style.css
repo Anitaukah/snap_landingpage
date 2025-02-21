@@ -1,0 +1,56 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap");
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Epilogue", "sans-serif";
+}
+nav {
+	border: 1px solid black;
+	padding: 1rem 0;
+}
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1250px;
+	margin: 0 auto;
+	border: 1px solid black;
+	/* align-items: center; */
+	padding: 0 15px;
+}
+.nav-left {
+	border: 1px solid black;
+	display: flex;
+	/* grid-template-columns: 400px 200px; */
+	gap: 3rem;
+}
+.nav-left > img {
+	width: 62px;
+	height: 20px;
+}
+.nav-bar {
+	display: flex;
+	/* border: 1px solid black; */
+}
+
+.menu-item {
+    border: 1px solid black;
+    padding-right: 1.5rem;
+    font-weight: 500;
+    font-size: 14px;
+}
