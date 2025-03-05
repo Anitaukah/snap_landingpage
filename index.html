@@ -99,7 +99,7 @@
 						<a href="#" class="menu-link">Login</a>
 						<button>Register</button>
 					</div>
-					<div class="hamburger">
+					<div class="hamburger" onclick="showSidebar()">
 						<img src="images/icon-menu.svg" alt="" />
 					</div>
 				</div>
@@ -107,7 +107,7 @@
 				<!-- this is the sidebar -->
 				<div class="sidebar">
 					<!-- class="hamburger" -->
-					<div class="icon-close-menu">
+					<div class="icon-close-menu" onclick="hideSidebar()">
 						<img src="images/icon-close-menu.svg" alt="" />
 					</div>
 
@@ -122,9 +122,9 @@
 								alt=""
 								class="toggle-dropdown"
 							/>
-
-							<ul class="dropdown-menu dropdown1">
-								<li class="menu-item">
+							<!-- class="dropdown-menu dropdown1" -->
+							<ul class="side-dropdown">
+								<li class="submenu-item">
 									<img
 										src="images/icon-todo.svg"
 										alt="Todolist icon"
@@ -132,7 +132,7 @@
 									<a href="#" class="menu-link">Todo List</a>
 								</li>
 
-								<li class="menu-item">
+								<li class="submenu-item">
 									<img
 										src="images/icon-calendar.svg"
 										alt="Calendar icon"
@@ -140,7 +140,7 @@
 									<a href="#" class="menu-link">Calendar</a>
 								</li>
 
-								<li class="menu-item">
+								<li class="submenu-item">
 									<img
 										src="images/icon-reminders.svg"
 										alt="Reminder icon"
@@ -148,7 +148,7 @@
 									<a href="#" class="menu-link">Reminders</a>
 								</li>
 
-								<li class="menu-item">
+								<li class="submenu-item">
 									<img
 										src="images/icon-planning.svg"
 										alt="Planning icon"
@@ -165,17 +165,17 @@
 								alt=""
 								class="toggle-dropdown"
 							/>
-
-							<ul class="dropdown-menu dropdown2">
-								<li class="menu-item">
+							<!-- -->
+							<ul class="side-dropdown">
+								<li class="menu-item2">
 									<a href="#" class="menu-link">History</a>
 								</li>
 
-								<li class="menu-item">
+								<li class="menu-item2">
 									<a href="#" class="menu-link">Our Team</a>
 								</li>
 
-								<li class="menu-item">
+								<li class="menu-item2">
 									<a href="#" class="menu-link">Blog</a>
 								</li>
 							</ul>
@@ -240,6 +240,6 @@
 		<!-- this is the footer section -->
 		<footer></footer>
 
-		<script></script>
+		<script src="script.js"></script>
 	</body>
 </html>
